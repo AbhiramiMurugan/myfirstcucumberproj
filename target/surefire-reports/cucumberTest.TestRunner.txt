@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: cucumberTest.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 23.721 sec <<< FAILURE!
+Login to WhiteBox Learning #1(Login Action)  Time elapsed: 9.702 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user enters "abhi.murugan@gmail.com" and "abhiramimurugan"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login to WhiteBox Learning #2(Login Action)  Time elapsed: 13.468 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user enters "abc@gmail.com" and "abcd"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
